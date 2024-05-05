@@ -1,0 +1,225 @@
+<html>
+    <head>
+        <title>Gallery</title>
+        <style>
+            .r{
+                width: 1500px;
+                height: 400px;
+                margin-top: 40px;
+            }
+            .c{
+
+                border: solid 2px;
+                height: 400px;
+                width: 300px;
+                margin-left: 150px;
+                display: inline-flex;
+                background-color: beige;
+            }
+            .c1{
+                border: solid 2px;
+                height: 400px;
+                width: 300px;
+                margin-left: 100px;
+                display: inline-flex;
+                background-color: beige;
+            }
+            .bar{
+                background-color: rgb(51, 49, 61);
+                width: 100%;
+                height: 100px;
+            }
+            .f{
+                font-size: 30px;
+                position: absolute;
+                display: inline;
+                color: rgb(82, 80, 92);
+                margin-top: 25px;
+                cursor: pointer;
+            }
+		f:hover{color:white;}
+            .f1{
+                font-size: 20px;
+                position: absolute;
+                display: inline;
+                color: rgb(155, 149, 149);
+                margin-top: 25px;
+                cursor: text;
+            }
+            .logo{
+                width: 100px;
+                height: 70px;
+                margin: 10px 0px 0px 20px;
+            }
+            .cr{
+                width: 1500px;
+                height: 400px;
+            }
+            .about{
+                background-color: rgb(82, 80, 92);
+                width:100%;
+                height: 300px;
+                margin-top: 50px;
+            }
+            .sform{
+                width: 600px;
+                height: 500px;
+                margin: -2000px 0px 0px 450px;
+                display: none;
+                position: absolute;
+                border: solid;
+                background-color:rgb(128, 123, 123);
+            }
+            .name{
+                width: 150px;
+                height: 30px;
+                border: solid 1px;
+                margin-left: 80px;
+                position: absolute;
+                outline: none;
+                margin-top: -20px;
+                border-radius: 5px;
+            }
+            .Art{
+                width: 150px;
+                height: 30px;
+                border: solid 1px;
+                outline: none;
+                margin-left: 400px;
+                border-radius: 5px;
+                margin-top:-30px ;
+                position: absolute;
+            }
+            .check{
+                width: 20px;
+                height: 100px;
+            }
+            .price{
+                width: 150px;
+                height: 30px;
+                border: solid 1px;
+                outline: none;
+                border-radius: 5px;
+                margin-left: 80px;
+                margin-top: -40px;
+            }
+            .type{
+                width: 150px;
+                height: 30px;
+                border: solid 1px;
+                outline: none;
+                position: absolute;
+                border-radius: 5px;
+                margin: -20px 0px 0px 100px;
+            }
+            .cform{
+                width: 600px;
+                height: 500px;
+                display: none;
+                position: absolute;
+                margin: -2000px 0px 0px 450px;
+                border: solid;
+                background-color: rgb(128, 123, 123)
+            }
+            .phone{
+                width: 150px;
+                height: 30px;
+                border: solid 1px;
+                outline: none;
+                margin-top: -20px;
+                border-radius: 5px;
+                margin-left: 90px;
+            }
+        </style>
+        <script src="jquery.js"></script>
+        <script>
+            $(document).ready(function(){
+                var x,y;
+                $('.contact').click(function(){
+                    $(".cform").slideToggle('fast')
+                    x=1
+                    if(y==1)
+                    {
+                        $('.sform').slideUp('fast')
+                        y=0
+                    }
+                })
+                $('.submitwork').click(function(){
+                    $('.sform').slideToggle('fast')
+                    y=1
+                    if(x==1)
+                    {
+                        $(".cform").slideUp('fast')
+                        x=0
+                    }
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <div class="bar">
+            <img class="logo" src="img1\logo-removebg-preview.png"> <font color="white">ASRAR Art Gallery</font>
+            <span class="f" style="margin-left:500px;" >Home</span>
+            <span class="contact f" style="margin-left: 650px;" >Contact
+            </span>
+            <span class="f" style="margin-left: 800px;" >About</span>
+            <span class="submitwork f" style="margin-left: 950px;" >Submit Work</span>
+        </div>
+        <div>
+            <img class="cr" src="img1/Screenshot 2024-04-30 135048.png">
+        </div>
+        <div class="r">
+            <img class="c" src="img1/p1.png" >
+            <img class="c" src="img1/p2.png" >
+            <img class="c" src="img1/p3.png" >
+        </div>
+        <div class="r">
+            <img class="c1" src="img1/p4.png" >
+            <img class="c1" src="img1/p5.png" >
+            <img class="c1" src="img1/p6.png" >
+        </div>
+        <div class="r">
+            <img class="c" src="img1/p7.png" >
+            <img class="c" src="img1/p8.png" >
+            <img class="c" src="img1/p9.png" >
+        </div>
+        <div class="about">
+            <span class="f1" style="margin: 30px 0px 0px 1200px;">Website:- www.asrar.com <br>instragram:- its_asrar<br>Whatsapp:- XXX-XXX-XXXX</span>
+            <span class="f1" style="width: 1100px;margin: 40px 0px 0px 40px;" > We are the Best platform for the Young and modern art
+                An art gallery is a space where artists can showcase their work and art enthusiasts can explore and appreciate a diverse range of artistic creations.Art enthusiasts, on the other hand, are drawn to art galleries as a means to immerse themselves in the world of art. These individuals seek to explore and appreciate a diverse range of artistic creations, from traditional paintings and sculptures to contemporary installations and digital art. Art galleries offer a curated selection of artwork, carefully chosen to engage and captivate viewers, sparking conversations and evoking emotions.In an art gallery, visitors have the opportunity to engage with art on a deeper level. They can observe the intricate details, textures, and colors of a painting up close, or walk around a sculpture to fully appreciate its three-dimensional form. Art enthusiasts can also learn about the artist's background, inspirations, and artistic process through accompanying descriptions and artist statements. This deeper understanding enhances the overall appreciation and connection to the artwork.
+            </span>
+        </div>
+        <form>
+            <div class="sform">
+                <p style="font-size: 30px;margin-left: 200px;" >Gallery Form</p>
+                <p style="margin: 35px 0px 0px 20px;" >Name:-</p>
+                <input type="text" class="name" ><br>
+                <p style="margin: -25px 0px 0px 360px;" >Art:-</p>
+                <input type="text" class="Art"><br>
+                <input type="checkbox" class="check" >
+                <p style="margin: -60px 0px 0px 40px;" >Do you Agree with our terms</p>
+                <p style="margin-top:20px;margin-left: 20px;" >Price:-</p>
+                <input type="text" class="Price" >
+                <p style="margin: 40px 0px 0px 20px;" >Art Type:-</p>
+                <input type="text" class="Type"><br>
+                <input type="submit" style="outline: none;border-radius: 10px;height: 50px;width: 100px;font-size: 20px;background-color: rgb(155, 149, 149);margin: 50px 0px 0px 200px;"  placeholder="submit">
+            </div>
+        </form>
+        <form>
+            <div class="cform">
+                <p style="font-size: 30px;margin-left: 200px;" >Contact Form</p>
+                <p style="margin: 35px 0px 0px 20px;" >Name:-</p>
+                <input type="text" class="name" ><br>
+                <p style="margin: -25px 0px 0px 360px;" >Art:-</p>
+                <input type="text" class="Art"><br>
+                <input type="checkbox" class="check" >
+                <p style="margin: -60px 0px 0px 40px;" >Do you Agree with our terms</p>
+                <p style="margin-top:20px;margin-left: 20px;" >Price:-</p>
+                <input type="text" class="Price" >
+                <p style="margin-left: 10px;margin-top: 20px;" >Phone no:- </p>
+                <input type="text" class="phone" ><br>
+                <input type="submit" style="outline: none;border-radius: 10px;height: 50px;width: 100px;font-size: 20px;background-color: rgb(155, 149, 149);margin: 50px 0px 0px 200px;"  placeholder="submit">
+            </div>
+        </form>
+    </body>
+</html>
